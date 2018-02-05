@@ -1,0 +1,84 @@
+// Buttons and Links
+
+a {
+  color: $teal;
+  text-decoration: none;
+
+  &:hover, &:active, &:visited, &:focus {
+    color: $teal;
+    text-decoration: none;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+
+}
+
+.hero {
+  a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: $white;
+    text-decoration: underline;
+    margin-right: 32px;
+  }
+}
+
+.btn {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  background: $teal;
+  border-radius: 2px;
+  font-weight: 600;
+  color: $white;
+  padding: 16px 0;
+  box-shadow: $md-shadow;
+
+  @media (max-width: $desktop) {
+  margin-bottom:24px;
+}
+
+
+
+  &:hover {
+    background: $teal;
+    box-shadow: $md-shadow-hover;
+  }
+}
+
+.no-shadow {
+      box-shadow: none;
+
+      &:hover {
+        box-shadow: none;
+      }
+    }
+
+
+
+
+  @keyframes carat-nudge {
+    0%   {margin-left:12px;}
+    25%  {margin-left: 13px}
+    50%  {margin-left: 14px}
+    75%  {margin-left: 13px}
+    100% {margin-left: 12px}
+}
+
+
+
+
+
+.link {
+  color: $teal;
+  text-decoration: none;
+  font-weight: 500;
+
+  &:hover, &:active, &:visited, &:focus {
+    color: $teal;
+    text-decoration: underline;
+  }
+
+}
