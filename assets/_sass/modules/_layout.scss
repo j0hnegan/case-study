@@ -7,6 +7,7 @@ html, body {
 .hero {
     background: url(../img/1440x486-hero@2x.jpg);
     background-size: cover;
+    width:100%;
 
     @media (max-width: $desktop) {
     background-position: top;
