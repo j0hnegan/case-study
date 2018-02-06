@@ -29,8 +29,8 @@ html, body {
   padding:0;
 }
 
-.m-60 {
-  margin: 60px 0;
+.m-40 {
+  margin: 40px 0;
 }
 
 .m-24 {
@@ -85,6 +85,11 @@ padding: 80px 0;
 
   @media (max-width: $desktop) {
   text-align:left !important;
+  }
+
+  .highlight {
+    font-weight: 600;
+    color: $grey;
   }
 }
 }

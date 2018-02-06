@@ -11,10 +11,6 @@ h1 {
   color: $white;
   font-weight: 700;
   margin-bottom: 40px;
-  @media (min-width: $desktop) {
-  font-size:48px;
-
-}
 
 }
 
@@ -22,18 +18,14 @@ h2 {
   font-family: 'Open Sans', sans-serif;
   color: $blue;
   font-weight: 600;
-  @media (min-width: $desktop) {
-  font-size: 36px;
-}
+
 }
 
 h3 {
   font-family: 'Open Sans', sans-serif;
   color: $black;
   font-weight: 700;
-  @media (min-width: $desktop) {
-  font-size: 36px;
-}
+
 @media (max-width: $desktop) {
 text-align:left;
 }
@@ -43,9 +35,7 @@ h5 {
   font-family: 'Open Sans', sans-serif;
   color: $black;
   font-weight: 700;
-  @media (min-width: $desktop) {
-  font-size: 24px;
-}
+
 }
 
 
@@ -54,7 +44,6 @@ h5 {
 
 p {
   font-family: 'Merriweather', serif;
-  font-size: 18px;
   color:$black;
   margin-bottom: 40px;
   font-weight: 300;
@@ -64,10 +53,7 @@ p {
 .lead {
   color: $white;
   margin-bottom: 8px;
-  @media (min-width: $desktop) {
-  font-size: 24px;
 
-}
 
 }
 
@@ -75,7 +61,7 @@ p {
   font-family: 'Open Sans', sans-serif;
   color: $black;
   @media (min-width: $desktop) {
-  font-size: 18px;
+  
   margin-bottom: 16px;
 }
 
