@@ -28,6 +28,8 @@ html, body {
     margin-top: 48px;
     left: 50%;
     transition: box-shadow 0.15s ease-in-out;
+    width:64px;
+    height: 64px;
 
     &:hover {
       box-shadow: $md-shadow-hover;
