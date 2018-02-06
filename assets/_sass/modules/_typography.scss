@@ -31,6 +31,13 @@ text-align:left;
 }
 }
 
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  color: $black;
+  font-weight: 700;
+
+}
+
 h5 {
   font-family: 'Open Sans', sans-serif;
   color: $black;
@@ -50,6 +57,10 @@ p {
 
 }
 
+.p-bold {
+  font-weight: 600; 
+}
+
 .lead {
   color: $white;
   margin-bottom: 8px;
@@ -61,7 +72,7 @@ p {
   font-family: 'Open Sans', sans-serif;
   color: $black;
   @media (min-width: $desktop) {
-  
+
   margin-bottom: 16px;
 }
 
