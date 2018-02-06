@@ -18,6 +18,22 @@ html, body {
   flex-direction:column;
 }
 
+.md-circle-btn {
+  border-radius: 50%;
+    padding: 16px;
+    background: #fff;
+    box-shadow: $md-shadow;
+    position: absolute;
+    margin-top: 48px;
+    left: 50%;
+    transition: box-shadow 0.15s ease-in-out;
+
+    &:hover {
+      box-shadow: $md-shadow-hover;
+      transition: box-shadow 0.15s ease-in-out;
+    }
+}
+
   .fh-100 {
       @media (min-width: $desktop) {
     padding: 0;

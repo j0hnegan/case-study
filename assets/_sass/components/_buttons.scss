@@ -36,6 +36,7 @@ a {
   color: $white;
   padding: 16px 0;
   box-shadow: $md-shadow;
+  transition: box-shadow 0.15s ease-in-out;
 
   @media (max-width: $desktop) {
   margin-bottom:24px;
@@ -46,6 +47,7 @@ a {
   &:hover {
     background: $teal;
     box-shadow: $md-shadow-hover;
+    transition: box-shadow 0.15s ease-in-out;
   }
 }
 
